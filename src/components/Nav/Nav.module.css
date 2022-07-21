@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: 16px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+  background: rebeccapurple;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 150%;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar__item {
+  /* padding: 16px 16px; */
+  cursor: pointer;
+  vertical-align: middle;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: plum;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  list-style-position: none;
+  color: aliceblue;
+
+}

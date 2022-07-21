@@ -1,16 +1,14 @@
+import Navbar from './Nav/Nav';
+import Homepage from './Homepage/Homepage';
+import Moviespage from './Moviespage/Moviespage';
+import { getDayTrendingMovies, getMovieByQuery } from 'apiCalls';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div>
+      <Navbar />
+      <Moviespage />
+      <Homepage />
     </div>
   );
 };
